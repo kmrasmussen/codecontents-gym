@@ -1,5 +1,8 @@
 /old/*
 /data/*
 /codestrings/*
-/__pycache__/*
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
 /notinrepo/*

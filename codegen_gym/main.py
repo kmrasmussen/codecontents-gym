@@ -1,5 +1,5 @@
-from cc_dataset import CodeContestsDataset, CodeContestsProblem
-from pythongym import execute_code_with_input as execute_code_string
+from .data.cc_dataset import CodeContestsDataset, CodeContestsProblem
+from .pythongym import execute_code_with_input as execute_code_string
 
 def eval_problem(problem: CodeContestsProblem, tests_type='public_tests', pol=False):
     if tests_type == 'public_tests':
